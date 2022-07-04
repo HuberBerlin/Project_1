@@ -1,0 +1,54 @@
+html, body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 100%;
+  overflow: hidden!important;
+  background-image:url('/images/bk-s1.jpg') 
+}
+
+a {
+  color: #00B7FF;
+}
+
+nav input {
+  background: transparent;
+  border: none;
+}
+
+.error-msg {
+  background-color: rgb(255, 172, 172);
+}
+
+img {
+  width: 100%;
+}
+
+
+
+.blockTop {
+  height: 790px;
+  max-height: 890px;
+  background-color: #000;
+background-image:  url('/images/dos_Duo.png'),url('/images/bk-s1.jpg') ;
+background-repeat: no-repeat;
+background-position:111% top , center center;
+background-size: auto 90%, 100% 100%;
+overflow: hidden!important;
+/* 
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-start;
+align-content: space-between; */
+
+}
+
+
+.TorneoLogo{
+  background: url('/images/logo_torneo.png') no-repeat center top ;
+  background-size: 347px;
+  height: 30px;
+  width: 400px;
+  float: left;
+  margin: 10%;
+  padding-top: 350px;
+}
